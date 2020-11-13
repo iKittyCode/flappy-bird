@@ -22,7 +22,9 @@ background(0, 78, 56);
   textSize(56);
 text("game over", 78, 78 )
 text("score is " + score, 40, 40)
-
+setTimeout(() => {
+  location.reload();
+}, 1000)
 }                                     
 if(pipes[i].offscreen()) {
 pipes.splice(i, 1);
