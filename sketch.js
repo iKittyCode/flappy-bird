@@ -2,8 +2,10 @@ var bird;
 var pipes = [];
 var score = 0;
 var img;
+var background;
 function preload() {
 img = loadImage('Dot_Train_Run.png')
+background = loadImage('background.jpg')
 }
 function setup() {
   createCanvas(400, 500);
