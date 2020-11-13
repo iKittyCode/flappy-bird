@@ -2,18 +2,18 @@ var bird;
 var pipes = [];
 var score = 0;
 var img;
-var background;
+var backimg;
 function preload() {
 img = loadImage('Dot_Train_Run.png')
-background = loadImage('background.jpg')
+backimg = loadImage('background.jpg')
 }
 function setup() {
-  createCanvas(400, 500);
+  createCanvas(600, 500);
   bird = new Bird();
   pipes.push(new Pipe());
 }
 function draw() {
-background(0);
+background(backimg);
 for (var i = pipes.length - 1; i >= 0; i--) { pipes[i].show();
 pipes[i].update();
 if (pipes[i].hits(bird)) {
