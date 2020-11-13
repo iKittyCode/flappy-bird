@@ -5,7 +5,7 @@ this.x = 64
   
 this.gravity = 0.6;
 this.velocity = 0;
-this.lift = -15
+this.lift = -16
 this.show = function() {
 fill(255);
 image(img,this.x, this.y, 100, 100);
