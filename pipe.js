@@ -23,7 +23,7 @@ return false;
   }
 }
 this.show = function() {
-fill(0);
+fill(0, 255, 30);
 if (this.highlight) {
 fill(237, 12, 12);
 
