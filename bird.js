@@ -7,7 +7,7 @@ this.gravity = 0.6;
 this.velocity = 0;
 this.lift = -16
 this.show = function() {
-fill(255);
+fill(255, 0, 80);
 ellipse(this.x, this.y, 32, 32);
 
 
