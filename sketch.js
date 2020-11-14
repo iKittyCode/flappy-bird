@@ -1,10 +1,10 @@
 var bird;
 var pipes = [];
 var score = 0;
-var img;
+
 var backimg;
 function preload() {
-img = loadImage('Dot_Train_Run.png')
+
 backimg = loadImage('background.jpg')
 }
 function setup() {

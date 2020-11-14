@@ -8,7 +8,7 @@ this.velocity = 0;
 this.lift = -16
 this.show = function() {
 fill(255);
-image(img,this.x, this.y, 100, 100);
+ellipse(this.x, this.y, 32, 32);
 
 
 }
