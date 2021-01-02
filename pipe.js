@@ -4,7 +4,7 @@ var center = random(spacing, height - spacing);
 this.top = center - spacing / 2
 this.bottom = height - (center + spacing / 2 )
 this.x = width;
-this.w = 50;
+this.w = 70;
 
 this.speed = 2;
 this.highlight = false;
