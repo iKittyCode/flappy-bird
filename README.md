@@ -1,7 +1,5 @@
 # flappy-bird
-this is flappy bird clone made in p5
-and javascript
-awesome right
+This is a flappy bird clone made in javascript and p5
 
 [Demo](https://ikittycode.github.io/flappy-bird/)
 
