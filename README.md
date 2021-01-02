@@ -5,7 +5,7 @@ awesome right
 
 [Demo](https://ikittycode.github.io/flappy-bird/)
 
-## How to develop on a Mac
+## How to develop on a Mac (or Linux)
 1. Install [brew](https://brew.sh/)
 1. Install NodeJS Version Manager
     ```
