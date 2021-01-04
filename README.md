@@ -6,15 +6,9 @@ This is a flappy bird clone made in javascript and p5
 **Some images are from the coding train these images are not mine**
 ## How to develop on a Mac (or Linux)
 1. Install [brew](https://brew.sh/)
-2. Install NodeJS Version Manager(optional)
+2. Install NodeJS
     ```
-    brew install nvm
-    export NVM_DIR="$HOME/.nvm"
-    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-    nvm install v12.14.1
-    nvm use --delete-prefix v12.14.1 --silent
-    nvm alias default v12.14.1
+    brew install node
     ```
 
 3. Execute `make all` or `make help` to list all commands as below
